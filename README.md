@@ -1,5 +1,5 @@
-[image1]: ./img/key_pts_example.png "Facial Keypoint Detection"
-[image2]: ./img/landmarks_numbered.jpg "Facial Keypoint"
+[image1]: ./img/facial_keypoints_example.PNG "Facial Keypoint Detection"
+[image2]: ./img/facial_keypoints_dataset.PNG "Facial Keypoints Dataset"
 
 # Facial Keypoint Detection
 Detecting 68 facial keypoints that include points around eyes, nose, and mouth on a face. 
@@ -8,9 +8,9 @@ Detecting 68 facial keypoints that include points around eyes, nose, and mouth o
 
 ## Overview
 
-1. Defining and training CNN model
-2. Detect face position in the image using Haar cascades
-3. Detect facial keypoint using trained CNN model
+1. Defining CNN architecture and training test data
+2. Detect faces in an image using a face detector (Haar Cascade)
+3. Detect facial keypoint
 
 
 ## Data
@@ -27,5 +27,13 @@ The information about the images and keypoints in this dataset are summarized in
 
 In each training and test image, there is a single face and **68 keypoints, with coordinates (x, y), for that face**.  These keypoints mark important areas of the face: the eyes, corners of the mouth, the nose, etc.
 
-![Facial Keypoint][image2]{: width="30%" height="30%"}
+![Facial Keypoints Dataset][image2]
+
+
+## Defining CNN architecture and training test data
+
+## Detect faces in an image using a face detector (Haar Cascade)
+
+## Detect facial keypoint
+
 
