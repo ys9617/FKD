@@ -152,8 +152,8 @@ print('model device : ', device)
 model.to(device)
 
 criterion = nn.MSELoss()
-optimizer = optim.Adam(model.parameters(), lr=0.00005, betas=(0.9,0.999), eps=1e-08)
+optimizer = optim.Adam(model.parameters(), lr=0.0001, betas=(0.9,0.999), eps=1e-08)
 
-n_epochs = 1;
+n_epochs = 300;
 train_net(n_epochs)
 
